@@ -1,0 +1,14 @@
+syntax = "proto2";
+
+
+message pc {
+	required bytes size = 2;
+	required bytes name = 33;
+
+}
+
+message Person {
+	required string name = 1;
+	required int32 id  = 2;
+	required pc pc_inst =3;
+}
